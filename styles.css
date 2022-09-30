@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+body{
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+header{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(142, 235, 196);
+}
+
+.pirma{
+ height: 100%;
+ width: 20%;
+}
+
+.pirma1{
+    height: 50%;
+    width: 100%;
+    background-image: url(./img/ivana-cajina-HDd-NQ_AMNQ-unsplash.jpg);
+    background-size: cover;
+}
+
+.pirma2{
+    height: 50%;
+    width: 100%;
+    background-image: url(./img/massimiliano-morosinotto-3i5PHVp1Fkw-unsplash.jpg);
+    background-size: cover;
+}
+
+.antra{
+    height: 100%;
+    width: 30%;
+}
+
+.antra1{
+    width: 100%;
+    height: calc(100% / 3);
+    background-image: url(./img/alessandro-sacchi-NUFnfYd09iI-unsplash.jpg);
+    background-size: cover;
+}
+
+.antra2{
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: rgb(43, 117, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(142, 235, 196);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+
+.antra3{
+    width: 100%;
+    height: calc(100% / 3);
+    background-image: url(./img/daniel-leone-g30P1zcOzXo-unsplash.jpg);
+    background-size: cover;
+}
+
+.trecia{
+    width: 15%;
+    height: 100%;
+}
+
+.trecia1{
+    height: 25%;
+    width: 100%;
+    background-image: url(./img/ales-krivec-N-aTikX-b00-unsplash.jpg);
+    background-size: cover;
+}
+
+.trecia2{
+    height: 50%;
+    width: 100%;
+    background-image: url(./img/daniel-roe-lpjb_UMOyx8-unsplash.jpg);
+    background-size: cover;
+}
+
+.trecia3{
+    height: 25%;
+    width: 100%;
+    background-image: url(./img/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-size: cover;
+}
+
+h1{
+    border: none;
+    color: rgb(43, 117, 101);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1.4cm;
+}
+
+#text1{
+    border: none;
+    color: rgb(43, 117, 101);
+    text-align: start;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: 'Kanit', sans-serif;
+}
+
+#text2{
+    border: none;
+    word-spacing: none;
+    text-align: start;
+    padding-left: 200px;
+    font-size: .6cm;
+}
+
+span{
+    border: none;
+    word-spacing: 100vw;
+}
